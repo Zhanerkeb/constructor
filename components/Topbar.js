@@ -33,7 +33,7 @@ export const Topbar = ({ onLoadState }) => {
   return (
     <Box px={1} py={1} mt={3} mb={1} bgcolor="#cbe8e7">
       <Grid container alignItems="center">
-        <Grid item xs>
+        {/* <Grid item xs>
           <FormControlLabel
             className="enable-disable-toggle"
             control={
@@ -68,7 +68,7 @@ export const Topbar = ({ onLoadState }) => {
           >
             Redo
           </MaterialButton>
-        </Grid>
+        </Grid> */}
         <Grid item>
           <MaterialButton
             className="copy-state-btn"
